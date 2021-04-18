@@ -1,7 +1,7 @@
 android_app_import {
     name: "StitchImage",
     apk: "prebuilt/priv-app/StitchImage/StitchImage.apk",
-    certificate: "platform",
+    presigned: true,
     dex_preopt: {
         enabled: false,
     },
@@ -15,7 +15,7 @@ android_app_import {
 android_app_import {
     name: "StitchImageService",
     apk: "prebuilt/app/StitchImageService/StitchImageService.apk",
-    certificate: "platform",
+    presigned: true,
     dex_preopt: {
         enabled: false,
     },
